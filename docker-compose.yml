@@ -70,7 +70,7 @@ services:
     tmpfs:
       - /workspaces/forem/tmp/pids
     ports:
-      - '3000:3000'
+      - '3001:3002'
 
   rails:
     <<: *backend
