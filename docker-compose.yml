@@ -80,7 +80,7 @@ services:
     <<: *backend
     command: bundle exec rails server -b 0.0.0.0
     ports:
-      - '3016:3016'
+      - '3020:3020'
     depends_on:
       esbuild:
         condition: service_started
